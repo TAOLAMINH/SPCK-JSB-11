@@ -3,3 +3,22 @@
     height: 600px;
     object-fit: cover;
 }
+
+.image-container {
+    position: relative;
+    text-align: center;
+}
+
+.image-text {
+    /* display: flex; */
+    text-align: center;
+    /* align-items: topleft; */
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 50%;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 18%;
+}
